@@ -110,7 +110,7 @@ p{
  }  
  
 .card{
-    background-color: #fff;
+    background-color: #948e8e;
     border: 1px solid #ddd;
     border-radius: 50px;
     width:300px;
@@ -147,4 +147,72 @@ p{
 .card-hover{
     transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.contact-section {
+    background-color: #837b7b;
+    padding: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Contact info styling */
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.contact-info div {
+    width: 30%;
+}
+
+.contact-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Contact form styling */
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #141212;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #777977;
+    color: rgb(241, 235, 235);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
 }
